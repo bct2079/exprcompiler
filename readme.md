@@ -55,5 +55,5 @@ The interpreter supports a variable x that you can use in your expressions. The 
 Since this interpreter is designed for basic math expressions, it may not handle complex expressions, operator precedence, or nested function calls in certain cases. Additionally, it doesn't support advanced mathematical operations like calculus or symbolic manipulation.
 
 # Author
-This interpreter was created with ❤️ by Rabin Lamichhane.
+This interpreter was created by Rabin Lamichhane.
    
