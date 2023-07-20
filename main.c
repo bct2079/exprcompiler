@@ -182,7 +182,7 @@ double evaluateAST(ASTNode *node, double x) {
     // printf("\nt:[%s]%lf, %lf\n", node->value, l,l2);
     return l - l2;
   }
-  if (strcmp(node->value, "mul") == 0) {
+  if (strcmp(node->value, "multiply") == 0) {
     double l = evaluateAST(node->children[0], x);
     double l2 = evaluateAST(node->children[1], x);
     // printf("\n## %s:%lf ##\n", node->value, l);
@@ -190,7 +190,7 @@ double evaluateAST(ASTNode *node, double x) {
     // printf("\nt:[%s]%lf, %lf\n", node->value, l,l2);
     return l * l2;
   }
-  if (strcmp(node->value, "div") == 0) {
+  if (strcmp(node->value, "divide") == 0) {
     double l = evaluateAST(node->children[0], x);
     double l2 = evaluateAST(node->children[1], x);
     // printf("\n## %s:%lf ##\n", node->value, l);
